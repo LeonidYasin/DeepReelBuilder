@@ -1,0 +1,11 @@
+video_generator/
+│   config.py
+│   font_finder.py
+│   script_reader.py
+│   image_generator.py
+│   audio_generator.py
+│   video_assembler.py
+│   main.py
+│   scene_script.json      (ваш файл со сценарием)
+│   (или scene_script.txt)
+└───cloud_video_output/    (рабочая папка)
