@@ -26,9 +26,6 @@ def find_font():
         for path in ['/System/Library/Fonts/Helvetica.ttc', '/Library/Fonts/Arial.ttf']:
             if os.path.isfile(path):
                 return path
-    else:  # Linux
-        for path in ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
-                     '/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf']:
-            if os.path.isfile(path):
-                return path
+    else:  # Linux (Ubuntu, etc.)
+         return "DejaVu-Sans"
     return None
