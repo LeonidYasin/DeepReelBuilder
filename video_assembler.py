@@ -9,7 +9,7 @@ from moviepy import (
 )
 from config import (
     OUTPUT_DIR, IMAGE_WIDTH, IMAGE_HEIGHT, OUTPUT_VIDEO_NAME,
-    FPS, VIDEO_BITRATE, AUDIO_BITRATE, GPU_ENCODER
+    FPS, VIDEO_BITRATE, AUDIO_BITRATE, GPU_ENCODER, SHOW_SUBTITLES
 )
 from font_finder import find_font
 
@@ -39,36 +39,48 @@ def _detect_gpu_encoder():
     return 'cpu', ['-preset', 'medium', '-crf', '23', '-tune', 'film']
 
 def _create_subtitle(text, duration):
+    """Создаёт текстовый клип с авто-переносом и ограничением высоты."""
+    if not SHOW_SUBTITLES:
+        return None
     try:
         txt = TextClip(
             text=text,
             font=FONT_PATH,
-            font_size=50,
+            font_size=36,                   # уменьшенный шрифт
             color='white',
             stroke_color='black',
-            stroke_width=3,
+            stroke_width=2,
             method='caption',
-            size=(IMAGE_WIDTH - 60, None),
+            size=(IMAGE_WIDTH * 0.85, None),  # ширина 85% экрана
             text_align='center'
         ).with_duration(duration)
+        # Ограничиваем высоту одной трети экрана
+        if txt.h > IMAGE_HEIGHT * 0.35:
+            txt = txt.resized(height=IMAGE_HEIGHT * 0.35)
         return txt
     except Exception as e:
         print(f"⚠️ Ошибка при создании текста: {e}")
         return TextClip(
             text="[шрифт не найден]",
-            font_size=50,
+            font_size=36,
             color='red',
             method='caption',
-            size=(IMAGE_WIDTH - 60, None),
+            size=(IMAGE_WIDTH * 0.85, None),
             text_align='center'
         ).with_duration(duration)
 
-def _create_subtitle_background(txt_height, duration):
-    bg_height = txt_height + 50
+def _create_subtitle_background(txt_clip, duration):
+    """Полупрозрачный фон точно по размеру текста (если текст есть)."""
+    if txt_clip is None:
+        return None
+    padding = 20
+    bg_width = int(txt_clip.w + padding * 2)
+    bg_height = int(txt_clip.h + padding * 2)
     return ColorClip(
-        size=(IMAGE_WIDTH - 40, bg_height),
+        size=(bg_width, bg_height),
         color=(0, 0, 0)
-    ).with_opacity(0.7).with_duration(duration).with_position(('center', IMAGE_HEIGHT - bg_height - 40))
+    ).with_opacity(0.65).with_duration(duration)
+
 
 def assemble_video(scenes):
     if not scenes:
@@ -98,14 +110,13 @@ def assemble_video(scenes):
         try:
             if media_type == 'video':
                 clip = VideoFileClip(media_path).without_audio()
-                if clip.duration > duration:
+                if clip.duration < duration:
+                    last_frame = clip.to_ImageClip(clip.duration - 0.1 if clip.duration > 0.1 else 0)
+                    remaining = duration - clip.duration
+                    freeze = last_frame.with_duration(remaining)
+                    clip = concatenate_videoclips([clip, freeze])
+                elif clip.duration > duration:
                     clip = clip.subclipped(0, duration)
-                elif clip.duration < duration:
-                    black = ColorClip(
-                        size=(IMAGE_WIDTH, IMAGE_HEIGHT),
-                        color=(0, 0, 0)
-                    ).with_duration(duration - clip.duration)
-                    clip = concatenate_videoclips([clip, black])
             else:
                 clip = ImageClip(media_path).with_duration(duration)
         except Exception as e:
@@ -122,10 +133,16 @@ def assemble_video(scenes):
         clip = clip.with_position('center')
 
         # Субтитры
-        txt = _create_subtitle(phrase, duration)
-        bg = _create_subtitle_background(txt.h, duration)
+        if SHOW_SUBTITLES:
+            txt = _create_subtitle(phrase, duration)
+            bg = _create_subtitle_background(txt, duration)
+            if txt is not None and bg is not None:
+                layers = [clip, bg, txt.with_position(('center', IMAGE_HEIGHT - (bg.h // 2) - 40))]
+            else:
+                layers = [clip]
+        else:
+            layers = [clip]
 
-        layers = [clip, bg, txt.with_position(('center', IMAGE_HEIGHT - (bg.h // 2) - 40))]
         final_clip = CompositeVideoClip(layers, size=(IMAGE_WIDTH, IMAGE_HEIGHT))
         if audio:
             final_clip = final_clip.with_audio(audio)
@@ -140,7 +157,6 @@ def assemble_video(scenes):
     total_dur = sum(c.duration for c in clips)
     print(f"\n🧩 Склейка (кодер: {encoder_name}), длительность: {total_dur:.1f} с")
 
-    # Выбор кодека: на CI всегда libx264
     if os.getenv('CI') or os.getenv('GITHUB_ACTIONS'):
         codec = 'libx264'
         ffmpeg_params = ['-preset', 'medium', '-crf', '23', '-tune', 'film']
