@@ -13,4 +13,4 @@ AUDIO_BITRATE = "192k"
 FPS = 24
 GPU_ENCODER = None
 # Полностью отключить субтитры (True — субтитры есть, False — нет)
-SHOW_SUBTITLES = True
+SHOW_SUBTITLES = False
