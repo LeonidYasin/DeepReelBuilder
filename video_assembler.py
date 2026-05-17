@@ -9,7 +9,7 @@ from moviepy import (
 from config import (
     OUTPUT_DIR, IMAGE_WIDTH, IMAGE_HEIGHT, OUTPUT_VIDEO_NAME,
     FPS, VIDEO_BITRATE, AUDIO_BITRATE, GPU_ENCODER,
-    SHOW_SUBTITLES, ZOOM_OUT_ENABLED, ZOOM_OUT_START_SCALE
+    SHOW_SUBTITLES, ZOOM_OUT_ENABLED
 )
 from font_finder import find_font
 
@@ -119,19 +119,24 @@ def assemble_video(scenes):
             print(f"    ⚠️ Ошибка загрузки медиа: {e}")
             clip = ColorClip(size=(IMAGE_WIDTH, IMAGE_HEIGHT), color=(20, 20, 30)).with_duration(duration)
 
-        # Масштабирование
-        target_ratio = IMAGE_WIDTH / IMAGE_HEIGHT
-        clip_ratio = clip.w / clip.h
-        if clip_ratio > target_ratio:
-            clip = clip.resized(height=IMAGE_HEIGHT)
-        else:
-            clip = clip.resized(width=IMAGE_WIDTH)
+        # --- Анимация отъезда камеры (зум-аут от ширины до высоты) ---
+        if ZOOM_OUT_ENABLED and media_type == 'image' and duration > 0:
+            orig_w, orig_h = clip.w, clip.h
+            scale_width = IMAGE_WIDTH / orig_w
+            scale_height = IMAGE_HEIGHT / orig_h
 
-        if ZOOM_OUT_ENABLED and media_type == 'image':
-            start_scale = ZOOM_OUT_START_SCALE
-            clip = clip.resized(
-                lambda t, s=start_scale, d=duration: s - (s - 1.0) * (t / d) if d > 0 else 1.0
-            )
+            def zoom_func(t, sw=scale_width, sh=scale_height, dur=duration):
+                return sw - (sw - sh) * (t / dur)
+
+            clip = clip.resized(zoom_func)
+        else:
+            # Без анимации — просто вписываем с обрезкой (cover)
+            target_ratio = IMAGE_WIDTH / IMAGE_HEIGHT
+            clip_ratio = clip.w / clip.h
+            if clip_ratio > target_ratio:
+                clip = clip.resized(height=IMAGE_HEIGHT)
+            else:
+                clip = clip.resized(width=IMAGE_WIDTH)
         clip = clip.with_position('center')
 
         # Субтитры
