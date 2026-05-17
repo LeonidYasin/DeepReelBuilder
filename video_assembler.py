@@ -1,4 +1,3 @@
-# video_assembler.py
 import os
 import time
 import subprocess
@@ -9,7 +8,8 @@ from moviepy import (
 )
 from config import (
     OUTPUT_DIR, IMAGE_WIDTH, IMAGE_HEIGHT, OUTPUT_VIDEO_NAME,
-    FPS, VIDEO_BITRATE, AUDIO_BITRATE, GPU_ENCODER, SHOW_SUBTITLES
+    FPS, VIDEO_BITRATE, AUDIO_BITRATE, GPU_ENCODER,
+    SHOW_SUBTITLES, ZOOM_OUT_ENABLED, ZOOM_OUT_START_SCALE
 )
 from font_finder import find_font
 
@@ -39,22 +39,20 @@ def _detect_gpu_encoder():
     return 'cpu', ['-preset', 'medium', '-crf', '23', '-tune', 'film']
 
 def _create_subtitle(text, duration):
-    """Создаёт текстовый клип с авто-переносом и ограничением высоты."""
     if not SHOW_SUBTITLES:
         return None
     try:
         txt = TextClip(
             text=text,
             font=FONT_PATH,
-            font_size=36,                   # уменьшенный шрифт
+            font_size=36,
             color='white',
             stroke_color='black',
             stroke_width=2,
             method='caption',
-            size=(IMAGE_WIDTH * 0.85, None),  # ширина 85% экрана
+            size=(IMAGE_WIDTH * 0.85, None),
             text_align='center'
         ).with_duration(duration)
-        # Ограничиваем высоту одной трети экрана
         if txt.h > IMAGE_HEIGHT * 0.35:
             txt = txt.resized(height=IMAGE_HEIGHT * 0.35)
         return txt
@@ -70,7 +68,6 @@ def _create_subtitle(text, duration):
         ).with_duration(duration)
 
 def _create_subtitle_background(txt_clip, duration):
-    """Полупрозрачный фон точно по размеру текста (если текст есть)."""
     if txt_clip is None:
         return None
     padding = 20
@@ -80,7 +77,6 @@ def _create_subtitle_background(txt_clip, duration):
         size=(bg_width, bg_height),
         color=(0, 0, 0)
     ).with_opacity(0.65).with_duration(duration)
-
 
 def assemble_video(scenes):
     if not scenes:
@@ -130,6 +126,12 @@ def assemble_video(scenes):
             clip = clip.resized(height=IMAGE_HEIGHT)
         else:
             clip = clip.resized(width=IMAGE_WIDTH)
+
+        if ZOOM_OUT_ENABLED and media_type == 'image':
+            start_scale = ZOOM_OUT_START_SCALE
+            clip = clip.resized(
+                lambda t, s=start_scale, d=duration: s - (s - 1.0) * (t / d) if d > 0 else 1.0
+            )
         clip = clip.with_position('center')
 
         # Субтитры
