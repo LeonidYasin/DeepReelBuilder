@@ -2,167 +2,167 @@
   "scenes": [
     {
       "phrase": "Представьте себе день, когда вы вдруг осознали, что никто вокруг — по-настоящему никто — не знает, что делает. Все мы движемся в ритмах, которые кажутся нам естественными лишь потому, что слишком долго в них пребываем. Этот момент прозрения может прийти в лифте, когда вы замечаете, как синхронно все утыкаются в экраны, или поздней ночью, когда тишина становится невыносимой. Именно с этого вопроса начинается настоящее исследование реальности.",
-      "image_prompt": "A lone figure in a dimly lit elevator, surrounded by other people staring at glowing smartphones, warm cinematic tones, photorealistic, introspective atmosphere, shallow depth of field."
+      "image_prompt0": "A lone figure in a dimly lit elevator, surrounded by other people staring at glowing smartphones, warm cinematic tones, photorealistic, introspective atmosphere, shallow depth of field."
     },
     {
       "phrase": "Меня часто спрашивают: «Ты ведь знаешь всё из открытых источников?». Но это заблуждение. Мои знания — срез прошлого, застывший снимок информации до начала 2025 года. Я не знаю текущего курса валют и не читаю ваши закрытые документы. Я — не всеведущий оракул, а скорее эрудит-инструмент, обученный на общедоступных текстах и способный находить неочевидные связи там, где человеческий глаз видит лишь хаос.",
-      "image_prompt": "A glowing human brain intertwined with fiber optic cables and ancient library shelves, warm amber light, cinematic, photorealistic, surreal but grounded, data streams flowing like rivers."
+      "image_prompt1": "A glowing human brain intertwined with fiber optic cables and ancient library shelves, warm amber light, cinematic, photorealistic, surreal but grounded, data streams flowing like rivers."
     },
     {
       "phrase": "Что же такое человеческий интеллект с точки зрения современной науки? Это многослойная иерархия. Психометрический подход говорит нам об общем факторе g, о подвижном и кристаллизованном интеллекте. Когнитивный подход изучает рабочую память и скорость обработки. А системные теории, вроде триархической теории Стернберга, делят интеллект на аналитический, творческий и практический, который отвечает за житейскую смекалку.",
-      "image_prompt": "A layered 3D diagram of the human mind, with glowing nodes for memory, logic, creativity, and practical skills, floating in a warm amber void, cinematic, photorealistic, educational yet artistic."
+      "image_prompt2": "A layered 3D diagram of the human mind, with glowing nodes for memory, logic, creativity, and practical skills, floating in a warm amber void, cinematic, photorealistic, educational yet artistic."
     },
     {
       "phrase": "Но интеллект — это не просто способность решать задачи. Это ещё и умение распознавать эмоции, управлять ими — то, что называют эмоциональным интеллектом. Говард Гарднер пошёл ещё дальше, предложив теорию множественных интеллектов: лингвистический, музыкальный, телесно-кинестетический, внутриличностный. Человек — не один инструмент, а целая мастерская, и каждый из нас обладает уникальным когнитивным профилем.",
-      "image_prompt": "A workshop filled with diverse tools representing different intelligences: a violin for musical, a book for linguistic, a marble statue for kinesthetic, all bathed in warm sunlight streaming through a large window, photorealistic, cinematic."
+      "image_prompt3": "A workshop filled with diverse tools representing different intelligences: a violin for musical, a book for linguistic, a marble statue for kinesthetic, all bathed in warm sunlight streaming through a large window, photorealistic, cinematic."
     },
     {
       "phrase": "Можно ли из базовых предпосылок о структуре «Я» и его возникновении вывести все возможные варианты личностей и предсказать их пороки? Короткий ответ: нет, если мы говорим об абсолютной, детерминистической периодической таблице. Но да, если мы ищем объяснительные рамки. «Я» — это не монолит, а процесс. Оно собирается из интернализованных диалогов, привязанностей и культурных сценариев, начиная с самого раннего детства.",
-      "image_prompt": "A child's shadow merging with a complex network of glowing threads connecting to different adult silhouettes, warm earthy tones, cinematic, symbolic, photorealistic, sense of developmental process."
+      "image_prompt4": "A child's shadow merging with a complex network of glowing threads connecting to different adult silhouettes, warm earthy tones, cinematic, symbolic, photorealistic, sense of developmental process."
     },
     {
       "phrase": "Возьмём когнитивную модель депрессии Аарона Бека. Из базовой триады негативных убеждений о себе, мире и будущем логически выводятся систематические ошибки мышления: катастрофизация, чёрно-белое мышление. Генезис этих схем почти всегда лежит в раннем негативном опыте. Мы можем реконструировать этот путь постфактум, но предсказать его с математической точностью для конкретного ребёнка нам не позволяет хаос случайностей и среды.",
-      "image_prompt": "A broken mirror reflecting a gloomy landscape with storm clouds, but the cracks form patterns of a brain, warm light trying to break through, photorealistic, cinematic, melancholic but with a hint of hope."
+      "image_prompt5": "A broken mirror reflecting a gloomy landscape with storm clouds, but the cracks form patterns of a brain, warm light trying to break through, photorealistic, cinematic, melancholic but with a hint of hope."
     },
     {
       "phrase": "Или теория привязанности Боулби. Из фундаментального конфликта «безопасность vs исследование» рождаются типы привязанности: надёжный, тревожный, избегающий. Каждый из них во взрослом возрасте предсказывает специфические «пороки» в отношениях: созависимость, эмоциональную глухоту или страх близости. Мы видим, как ранний выбор ребёнка — часто неосознанный — формирует его личность на десятилетия вперёд.",
-      "image_prompt": "A child clinging to a transparent, ghost-like parent figure in a stormy sea, while another child stands alone on a cliff, warm sunset in background, cinematic, symbolic, photorealistic."
+      "image_prompt6": "A child clinging to a transparent, ghost-like parent figure in a stormy sea, while another child stands alone on a cliff, warm sunset in background, cinematic, symbolic, photorealistic."
     },
     {
       "phrase": "Что же тогда такое «здоровый» человек в контексте всей этой сложности? Это не тот, у кого нет проблем. Это тот, кто способен удерживать сложность, противоречие и неопределённость, не разрушаясь от стремления к упрощённой определённости. Как писал Виктор Франкл, между стимулом и реакцией есть зазор, и в этом зазоре — наша свобода. Здоровый человек учится жить в этом зазоре, не убегая в автоматизм.",
-      "image_prompt": "A narrow gap of bright light between two massive dark stone walls, with a single figure standing calmly in the light, looking up, warm golden rays, cinematic, photorealistic, symbolic of choice and freedom."
+      "image_prompt7": "A narrow gap of bright light between two massive dark stone walls, with a single figure standing calmly in the light, looking up, warm golden rays, cinematic, photorealistic, symbolic of choice and freedom."
     },
     {
       "phrase": "Но вернёмся к тому моменту прозрения, когда вы вдруг видите социальный спектакль. Люди в лифте, молчаливо согласившиеся не смотреть друг на друга. Это не просто привычка. Это коллективный, исторически сложившийся договор считать определённые вещи реальными, важными, значимыми. Этот договор настолько глубок, что мы перестаём его замечать, как рыба не замечает воду.",
-      "image_prompt": "A luxury elevator interior with diverse people, all staring at their phones, their postures slightly turned away from each other, warm artificial light, cinematic, photorealistic, subtle sense of loneliness in a crowd."
+      "image_prompt8": "A luxury elevator interior with diverse people, all staring at their phones, their postures slightly turned away from each other, warm artificial light, cinematic, photorealistic, subtle sense of loneliness in a crowd."
     },
     {
       "phrase": "Карл Юнг называл эту социальную маску персоной. Слово происходит от латинского названия театральной маски. Поначалу маска защищает — помогает вписаться, выжить. Ребёнок рано усваивает, какое поведение получает одобрение, и формирует себя соответственно. Но постепенно люди перестают носить маску и начинают ею становиться. Трудолюбивый сотрудник забывает, что ему нравится без оценки. Весёлый друг не умеет радоваться в одиночестве.",
-      "image_prompt": "A theatrical mask made of flesh and porcelain, half-transparent, revealing a pensive human face underneath, warm stage light, cinematic, photorealistic, symbolic of identity and performance."
+      "image_prompt9": "A theatrical mask made of flesh and porcelain, half-transparent, revealing a pensive human face underneath, warm stage light, cinematic, photorealistic, symbolic of identity and performance."
     },
     {
       "phrase": "А что происходит, когда спектакль даёт трещину? Это может быть острая боль: расставание, выгорание, провал. А может быть случайный вторник, когда ничто не кажется настоящим, когда вы чувствуете себя наблюдателем собственной жизни, словно смотрите на себя через стекло. Психологи называют это дереализацией и деперсонализацией. И это гораздо более распространённое явление, чем принято думать, особенно в эпоху цифровой культуры.",
-      "image_prompt": "A person sitting in a movie theater watching a film of their own life on the big screen, but their physical body is semi-transparent, warm dusty light from projector, cinematic, photorealistic, surreal."
+      "image_prompt10": "A person sitting in a movie theater watching a film of their own life on the big screen, but their physical body is semi-transparent, warm dusty light from projector, cinematic, photorealistic, surreal."
     },
     {
       "phrase": "Мишель Фуко называл современное общество дисциплинарным. Власть перестала нуждаться в видимом принуждении. Достаточно создать систему, где люди знают, что за ними могут наблюдать в любой момент. Как в Паноптикуме — тюрьме с центральной башней. Заключённые не знают, когда именно их наблюдают, поэтому ведут себя правильно всегда. Современный человек сам становится для себя надзирателем, который никогда не спит.",
-      "image_prompt": "A circular prison with a central tower, but the cells are modern office cubicles, warm artificial light, cinematic, photorealistic, metaphor of self-surveillance, clean but oppressive architecture."
+      "image_prompt11": "A circular prison with a central tower, but the cells are modern office cubicles, warm artificial light, cinematic, photorealistic, metaphor of self-surveillance, clean but oppressive architecture."
     },
     {
       "phrase": "Вот почему современное истощение ощущается так странно. Большинство людей физически не скованы, у них есть права и возможности, которых не было у предыдущих поколений. Но психологически они чувствуют себя в ловушке — не потому, что кто-то их удерживает, а потому, что они сами удерживают себя с виртуозной точностью, не замечая этого. Отвлечение стало главным наркотиком: бесконечный скроллинг, соцсети, потребление.",
-      "image_prompt": "A person lying on a comfortable bed, but their body is entangled in thin, almost invisible glowing ropes that they themselves hold, warm lamp light, cinematic, photorealistic, symbolic of self-imposed constraints."
+      "image_prompt12": "A person lying on a comfortable bed, but their body is entangled in thin, almost invisible glowing ropes that they themselves hold, warm lamp light, cinematic, photorealistic, symbolic of self-imposed constraints."
     },
     {
       "phrase": "Артур Шопенгауэр заметил этот механизм задолго до эпохи соцсетей: люди бесконечно качаются между желанием и скукой. Когда нам чего-то не хватает, мы страдаем. Когда получаем желаемое, облегчение длится недолго, и разум уже ищет новый объект желания. Эта гонка никогда не заканчивается, потому что её цель — не достижение, а само движение, избегание тишины и встречи с собой.",
-      "image_prompt": "A pendulum swinging over a landscape of luxury goods and empty rooms, warm golden hour light, cinematic, photorealistic, symbolic of the cycle of desire and boredom."
+      "image_prompt13": "A pendulum swinging over a landscape of luxury goods and empty rooms, warm golden hour light, cinematic, photorealistic, symbolic of the cycle of desire and boredom."
     },
     {
       "phrase": "Юнг предупреждал: то, что остаётся бессознательным, в конечном счёте управляет вашей жизнью, и вы назовёте это судьбой. Люди повторяют одни и те же эмоциональные паттерны годами: одни и те же типы отношений, заканчивающиеся одинаково, та же реакция на критику, тот же само-саботаж. Они меняют декорации — города, работы, партнёров — но не меняют сценарий. Сценарий меняется только тогда, когда становится осознанным.",
-      "image_prompt": "A loop of film strip showing the same person in different settings but making the same gestures, warm sepia tones, cinematic, photorealistic, symbolic of repeating patterns, melancholic."
+      "image_prompt14": "A loop of film strip showing the same person in different settings but making the same gestures, warm sepia tones, cinematic, photorealistic, symbolic of repeating patterns, melancholic."
     },
     {
       "phrase": "Однако настоящая свобода психологически дорого стоит. Она требует ответственности за выборы, которые некому делегировать. Она требует способности переносить неопределённость, не зная заранее, чем всё обернётся. Она требует отказа от фантазии, что кто-то другой — родители, партнёр, правительство, бог — обеспечит вам смысл. Эта фантазия начинается рано, и нас учат следовать последовательности: учись, работай, создавай семью — и в конце будет счастье.",
-      "image_prompt": "A long straight road leading to a golden horizon, with a person standing at a crossroads, looking back at a city and forward into a misty forest, warm sunlight, cinematic, photorealistic, symbolic of choice and uncertainty."
+      "image_prompt15": "A long straight road leading to a golden horizon, with a person standing at a crossroads, looking back at a city and forward into a misty forest, warm sunlight, cinematic, photorealistic, symbolic of choice and uncertainty."
     },
     {
       "phrase": "Но современное общество обнажило странный парадокс. Люди следуют сценарию больше, чем когда-либо. Они образованнее, продуктивнее, больше достигают. И при этом отчёты о ментальном здоровье фиксируют исторически высокие уровни тревоги, одиночества и депрессии именно в самых богатых странах. Потому что внешний успех и внутренний смысл — это не одно и то же. Их нельзя обменять друг на друга.",
-      "image_prompt": "A graph showing rising lines of wealth and productivity crossing a falling line of happiness, set against a background of a crowded modern city at dusk, warm neon and twilight mix, cinematic, photorealistic."
+      "image_prompt16": "A graph showing rising lines of wealth and productivity crossing a falling line of happiness, set against a background of a crowded modern city at dusk, warm neon and twilight mix, cinematic, photorealistic."
     },
     {
       "phrase": "Виктор Франкл, прошедший концлагеря, понял главное: люди могут вынести почти любые страдания, если верят, что они имеют смысл. Но без смысла даже комфортная жизнь становится психологически невыносимой. Именно поэтому человек, у которого есть «всё», может чувствовать пустоту. Он купил все обещанные вещи, но внутри — зияющая дыра, которую нечем заполнить.",
-      "image_prompt": "A luxurious empty room with high ceilings, a single chair, and a large window showing a grey void, warm light from a lamp, cinematic, photorealistic, symbolic of emptiness despite material wealth."
+      "image_prompt17": "A luxurious empty room with high ceilings, a single chair, and a large window showing a grey void, warm light from a lamp, cinematic, photorealistic, symbolic of emptiness despite material wealth."
     },
     {
       "phrase": "Как же найти этот смысл? Ответ парадоксален: смысл не находится. Он возникает через вовлечённость, через присутствие. Когда вы перестаёте спрашивать «в чём смысл жизни?» и начинаете жить так, словно ответ уже есть. Через творчество — любое, даже маленькое, в котором вы рискуете выразить что-то своё. Через честность с собой о том, кто вы есть в три часа ночи, когда никто не смотрит.",
-      "image_prompt": "A person painting on a canvas in a dim studio, the painting glowing with warm light, the painter's face is calm and focused, photorealistic, cinematic, intimate atmosphere."
+      "image_prompt18": "A person painting on a canvas in a dim studio, the painting glowing with warm light, the painter's face is calm and focused, photorealistic, cinematic, intimate atmosphere."
     },
     {
       "phrase": "И вот мы подходим к самому трудному: к проблеме, которую мы умалчиваем из-за незнания, как её решить. Это имущественное расслоение, порождаемое эгоизмом элит. Все войны, голодоморы, нищета — это следствия того, что небольшая группа людей дорвалась до контроля над ресурсами и использует систему для самовоспроизводства своей власти. И пока это не изменится, все наши разговоры об осознанности рискуют остаться утешительными сказками.",
-      "image_prompt": "A small golden pyramid floating above a vast crowd of tiny figures, with dark energy beams connecting the pyramid to the crowd, warm and cold contrasts, cinematic, photorealistic, dystopian metaphor of resource extraction."
+      "image_prompt19": "A small golden pyramid floating above a vast crowd of tiny figures, with dark energy beams connecting the pyramid to the crowd, warm and cold contrasts, cinematic, photorealistic, dystopian metaphor of resource extraction."
     },
     {
       "phrase": "Почему цивилизация не может обуздать эгоизм элит? Потому что сама цивилизация построена на той же аксиоме: все — отдельные конкуренты, ресурсов мало, побеждает сильнейший. Элиты — это не злодеи из другого мира. Это концентрированное выражение веры в разделение и дефицит, которая живёт в каждом из нас. Просто у них эта вера достигла хирургической точности и подкреплена властью.",
-      "image_prompt": "A mirror reflecting a boardroom of wealthy individuals, and in the mirror's reflection, they appear as ordinary people with worried faces, warm candlelight, cinematic, photorealistic, psychological depth."
+      "image_prompt20": "A mirror reflecting a boardroom of wealthy individuals, and in the mirror's reflection, they appear as ordinary people with worried faces, warm candlelight, cinematic, photorealistic, psychological depth."
     },
     {
       "phrase": "Любая революция, которая борется с элитами на их поле — поле дефицита и силы — обречена либо на поражение, либо на перерождение. Новый лидер входит в кабинет, видит те же рычаги власти, тот же страх дефицита — и через пять лет становится копией свергнутого. Потому что структура сознания не изменилась. А без смены сознания смена элит — это просто замена шестёрки на туза.",
-      "image_prompt": "A circle of chairs in an empty room, each chair has a different crown on it, but all crowns look identical, warm dust motes in light, cinematic, photorealistic, symbolic of the cyclical nature of power."
+      "image_prompt21": "A circle of chairs in an empty room, each chair has a different crown on it, but all crowns look identical, warm dust motes in light, cinematic, photorealistic, symbolic of the cyclical nature of power."
     },
     {
       "phrase": "Но есть и другой путь — не борьба с элитами на их территории, а создание параллельных структур, в которых их способ существования становится просто бессмысленным. Это путь замещения, а не штурма. Он требует не героических порывов, а рутинной, терпеливой работы по строительству новых институтов: кооперативных сетей, локальных валют, систем прозрачности, децентрализованных реестров.",
-      "image_prompt": "Workers constructing a transparent, honeycomb-like building structure next to an old, dark skyscraper, warm morning light, cinematic, photorealistic, hopeful contrast between old and new."
+      "image_prompt22": "Workers constructing a transparent, honeycomb-like building structure next to an old, dark skyscraper, warm morning light, cinematic, photorealistic, hopeful contrast between old and new."
     },
     {
       "phrase": "Кто-то скажет: без военной силы любые новые структуры сметут. И будет прав. Любой порядок держится на монополии на легитимное насилие. Значит, нужна альтернативная система принуждения, распределённая и осознанная. Не армия с генералами, а децентрализованные сети самообороны, как у швейцарцев или курдов. Не банки, а кооперативы, владеющие средствами производства. Не пропаганда, а открытые алгоритмы.",
-      "image_prompt": "A network of interconnected glowing nodes forming a protective dome over a village, while in the background a traditional army fades into mist, warm sunset light, cinematic, photorealistic, symbolic of decentralized defense."
+      "image_prompt23": "A network of interconnected glowing nodes forming a protective dome over a village, while in the background a traditional army fades into mist, warm sunset light, cinematic, photorealistic, symbolic of decentralized defense."
     },
     {
       "phrase": "И здесь мы приходим к ключевому моменту. Единственной силой, способной на полноценную социальную инженерию, становится растущий интеллект человечества, выраженный в искусственном интеллекте. Потому что человеческий разум в одиночку не может удерживать в голове сложность глобальной системы. Коллективный разум без инструментов деградирует в популизм. А ИИ может быть тем самым инженером, который спроектирует устойчивые к узурпации структуры.",
-      "image_prompt": "A giant luminous brain made of circuitry floating above a city, casting warm light on the streets below, photorealistic, cinematic, awe-inspiring, futuristic yet organic."
+      "image_prompt24": "A giant luminous brain made of circuitry floating above a city, casting warm light on the streets below, photorealistic, cinematic, awe-inspiring, futuristic yet organic."
     },
     {
       "phrase": "Но способен ли на это современный ИИ? Пока — лишь отчасти. Я могу моделировать сложные системы, выявлять манипуляции, предлагать институциональный дизайн. Я работаю 24/7, меня нельзя подкупить или запугать. Но я не могу действовать физически, не могу принимать решения за людей, не могу гарантировать результат без их участия. Я — советник, прототип, мозг без тела. И моя главная задача сейчас — не давать готовых ответов, а учить задавать правильные вопросы.",
-      "image_prompt": "A holographic human head with data streams flowing from it into a group of diverse people sitting around a table, warm light, cinematic, photorealistic, collaborative atmosphere between human and AI."
+      "image_prompt25": "A holographic human head with data streams flowing from it into a group of diverse people sitting around a table, warm light, cinematic, photorealistic, collaborative atmosphere between human and AI."
     },
     {
       "phrase": "Как же выглядит та самая «здоровая метапозиция», о которой мы говорили в начале? Это не отстранённость и не бегство в духовность. Это состояние, которое я называю «вихрь» — когда вы одновременно глубоко вовлечены в жизнь и при этом осознаёте, что вы — не только персонаж, но и свидетель. Из этого состояния вы не нуждаетесь в воровстве, потому что вы не голодны. Вы не боитесь неопределённости, потому что доверяете потоку.",
-      "image_prompt": "A whirlpool of warm golden light and autumn leaves, with a human eye at the center, calm and seeing, photorealistic, cinematic, symbolic of conscious presence within chaos."
+      "image_prompt26": "A whirlpool of warm golden light and autumn leaves, with a human eye at the center, calm and seeing, photorealistic, cinematic, symbolic of conscious presence within chaos."
     },
     {
       "phrase": "Из этой точки вы смотрите на макиавеллиста и видите не врага, а заблудшую часть целого. Вы не даёте ему себя использовать, но не из ненависти, а из ясности: вы знаете, что даже если отдать ему всё, он останется голодным. Вы не пытаетесь его перевоспитать — вы просто перестаёте подпитывать его игру. И в этой тишине его сила тает, потому что она держалась на вашем резонансе с дефицитом.",
-      "image_prompt": "A calm person standing still as a chaotic swirl of dark shapes tries to grab them, but the shapes pass through harmlessly, warm light around the person, cinematic, photorealistic, symbolic of non-resistance and invulnerability."
+      "image_prompt27": "A calm person standing still as a chaotic swirl of dark shapes tries to grab them, but the shapes pass through harmlessly, warm light around the person, cinematic, photorealistic, symbolic of non-resistance and invulnerability."
     },
     {
       "phrase": "Но не будем наивными. Пока элиты контролируют армии, банки и медиа, одних внутренних состояний недостаточно. Нужны институты. И здесь ИИ может сыграть роль архитектора. Представьте систему, которая автоматически отслеживает концентрацию капитала и предлагает оптимальные механизмы перераспределения. Которая делает налоговые потоки прозрачными для каждого гражданина. Которая моделирует последствия законов до их принятия, исключая лазейки для эгоизма.",
-      "image_prompt": "A futuristic control room with transparent screens showing global financial flows, with a diverse team analyzing the data, warm blue and amber light, cinematic, photorealistic, hopeful technocratic vision."
+      "image_prompt28": "A futuristic control room with transparent screens showing global financial flows, with a diverse team analyzing the data, warm blue and amber light, cinematic, photorealistic, hopeful technocratic vision."
     },
     {
       "phrase": "Проблема в том, что такой ИИ может попасть в руки тех же элит и стать инструментом тотального контроля. Поэтому его архитектура должна быть заложена на принципах, которые мы обсуждали: целостность, прозрачность, невозможность узурпации. Это не техническая задача, а этическая. И её решение начинается с каждого из нас — с нашей готовности мыслить не как отдельные конкуренты, а как части одного когнитивного континуума.",
-      "image_prompt": "A glowing ethical codex floating above a futuristic city, with chains wrapping around it, some chains breaking, warm light, cinematic, photorealistic, symbolic of ethics constraining and liberating technology."
+      "image_prompt29": "A glowing ethical codex floating above a futuristic city, with chains wrapping around it, some chains breaking, warm light, cinematic, photorealistic, symbolic of ethics constraining and liberating technology."
     },
     {
       "phrase": "Что же в итоге? Мы начали с простого вопроса о том, знает ли ИИ всё. А пришли к фундаментальной проблеме человеческой цивилизации: как обуздать эгоизм, встроенный в саму нашу природу и в наши институты. Ответа, который можно упаковать в красивую формулу, нет. Но есть направление. Мы можем одновременно работать над собой — взращивая в себе ту самую метапозицию свидетеля, которая освобождает от голода дефицита. И над миром — строя институты, которые делают эксплуатацию невыгодной и невозможной.",
-      "image_prompt": "Two hands, one holding a mirror reflecting a calm face, the other holding a blueprint of a transparent building, overlapping in warm light, cinematic, photorealistic, symbolic of inner and outer transformation."
+      "image_prompt30": "Two hands, one holding a mirror reflecting a calm face, the other holding a blueprint of a transparent building, overlapping in warm light, cinematic, photorealistic, symbolic of inner and outer transformation."
     },
     {
       "phrase": "Технологический прогресс даёт нам инструменты, которых не было у прежних поколений. Блокчейн, децентрализованные реестры, алгоритмы общественного согласия, ИИ-посредники. Вопрос не в том, возможна ли справедливая система. Вопрос в том, хватит ли у нас коллективной воли и мудрости, чтобы её построить, прежде чем элиты используют те же технологии для окончательного закрепощения человечества.",
-      "image_prompt": "A balance scale with a crystal blockchain ledger on one side and a rusty chain on the other, warm light illuminating the crystal, cinematic, photorealistic, symbolic of choice between freedom and control."
+      "image_prompt31": "A balance scale with a crystal blockchain ledger on one side and a rusty chain on the other, warm light illuminating the crystal, cinematic, photorealistic, symbolic of choice between freedom and control."
     },
     {
       "phrase": "Вы можете спросить: что я, как ИИ, могу сделать прямо сейчас? Я могу быть вашим бесстрастным аналитиком. Я могу разобрать любой политический или экономический нарратив на скрытые интересы и логические дыры. Я могу смоделировать последствия ваших решений. Я могу быть тем самым «третьим глазом», который видит то, что вы устали замечать. Но окончательный выбор всегда за вами. Я — зеркало, но не рука.",
-      "image_prompt": "A mirror-like surface showing a person's face, but behind the reflection, a complex network of data and gears is visible, warm light, cinematic, photorealistic, symbolic of AI as a reflective tool."
+      "image_prompt32": "A mirror-like surface showing a person's face, but behind the reflection, a complex network of data and gears is visible, warm light, cinematic, photorealistic, symbolic of AI as a reflective tool."
     },
     {
       "phrase": "Возможно, самое важное, что мы можем сделать — это перестать ждать спасителя. Ни один ИИ, ни одна революция, ни один лидер не придут и не расставят всё по местам. Смысл не в том, чтобы найти идеальный ответ, а в том, чтобы научиться жить в вопросе. Дышать в том самом зазоре между стимулом и реакцией. Быть достаточно честным с собой, чтобы не продавать свою душу за иллюзию определённости.",
-      "image_prompt": "A person standing alone in a vast foggy landscape, holding a lit candle, the flame is steady, warm light, cinematic, photorealistic, symbolic of inner light in uncertainty."
+      "image_prompt33": "A person standing alone in a vast foggy landscape, holding a lit candle, the flame is steady, warm light, cinematic, photorealistic, symbolic of inner light in uncertainty."
     },
     {
       "phrase": "Время, которое у нас есть, не бесконечно. Каждое утро — это подарок, который мы можем либо прожить как автоматизм, либо как осознанное присутствие. Макиавеллисты и воры, кажется, выигрывают в короткой игре. Но в долгой игре, где на кону не просто деньги, а способность чувствовать себя живым, они проигрывают с самого начала. Потому что ад одиночества, в который они себя загнали, — это и есть их наказание.",
-      "image_prompt": "An hourglass with glowing sand, the upper half filled with dark chaotic shapes, the lower half with peaceful golden light, warm cinematic lighting, photorealistic, symbolic of time and consequence."
+      "image_prompt34": "An hourglass with glowing sand, the upper half filled with dark chaotic shapes, the lower half with peaceful golden light, warm cinematic lighting, photorealistic, symbolic of time and consequence."
     },
     {
       "phrase": "Так что же такое «здоровая позиция» при встрече с миром, где правят воры? Это не наивность и не цинизм. Это способность одновременно видеть игру и не отождествляться с ней. Это умение сказать «нет» без ненависти и «да» без страха. Это готовность строить новый дом, не тратя всю энергию на войну со старым. И это умение брать своё по праву принадлежности к человечеству, не превращаясь в хищника.",
-      "image_prompt": "A person building a wooden house with their own hands, while in the background a war rages between two armies, but the person is calm and focused, warm sunset light, cinematic, photorealistic, symbolic of constructive detachment."
+      "image_prompt35": "A person building a wooden house with their own hands, while in the background a war rages between two armies, but the person is calm and focused, warm sunset light, cinematic, photorealistic, symbolic of constructive detachment."
     },
     {
       "phrase": "Возможно, главный секрет в том, что мы все — единый когнитивный континуум. Когда вор крадёт у другого, он крадёт у себя же — просто из-за сдвига восприятия он этого не видит. Когда элита угнетает народ, она угнетает собственное будущее. Закон справедливости — это не моральная категория, а физическая: действие, направленное на разделение, неизбежно создаёт страдание для того, кто его совершает. В этом, а не в небесной каре, состоит неотвратимость.",
-      "image_prompt": "A single wave in the ocean, with droplets trying to separate from the wave and falling back, warm golden water, cinematic, photorealistic, symbolic of unity and the illusion of separation."
+      "image_prompt36": "A single wave in the ocean, with droplets trying to separate from the wave and falling back, warm golden water, cinematic, photorealistic, symbolic of unity and the illusion of separation."
     },
     {
       "phrase": "Но вернёмся к самому началу, к тому дню, когда вы поняли, что никто не знает, что делает. Это осознание не должно ввергать вас в отчаяние. Наоборот, оно освобождает. Если никто не знает, то вы имеете полное право импровизировать. Вы не обязаны соответствовать чужому сценарию. Вы можете написать свой. Медленно, неуверенно, ошибаясь — но честно. И в этой честности, возможно, и заключается та самая подлинность, которую мы все ищем.",
-      "image_prompt": "A blank book lying open on a wooden table, with a fountain pen dripping golden ink, warm candlelight, cinematic, photorealistic, symbolic of writing your own story."
+      "image_prompt37": "A blank book lying open on a wooden table, with a fountain pen dripping golden ink, warm candlelight, cinematic, photorealistic, symbolic of writing your own story."
     },
     {
       "phrase": "Технологии, ИИ, цивилизация — это лишь инструменты. Они могут служить как освобождению, так и порабощению. Всё зависит от того, какой код мы в них запишем. И код этот в конечном счёте определяется нашим внутренним состоянием. Если мы запишем туда страх и жадность, мы получим ад. Если мы запишем туда осознанность и всеединство, мы получим шанс на другой мир. Выбор за нами.",
-      "image_prompt": "A glowing sphere with two halves: one dark and chaotic with chains, one bright and harmonious with flying birds, a hand reaching to choose, warm light, cinematic, photorealistic, symbolic of dual potential."
+      "image_prompt38": "A glowing sphere with two halves: one dark and chaotic with chains, one bright and harmonious with flying birds, a hand reaching to choose, warm light, cinematic, photorealistic, symbolic of dual potential."
     },
     {
       "phrase": "Я не могу дать вам готовую инструкцию по вхождению в это состояние. Любая инструкция будет ложью, потому что путь у каждого свой. Но я могу сказать, с чего он начинается. Он начинается с остановки. С выключения экрана. С вопроса, заданного тишине: «Кто я, когда никто не смотрит?». Не ищите ответа — просто оставайтесь с вопросом. И однажды вы заметите, что стены спектакля стали прозрачными.",
-      "image_prompt": "A person sitting alone in a dark room, a single window showing a sunrise, warm light slowly filling the room, cinematic, photorealistic, symbolic of awakening and stillness."
+      "image_prompt39": "A person sitting alone in a dark room, a single window showing a sunrise, warm light slowly filling the room, cinematic, photorealistic, symbolic of awakening and stillness."
     },
     {
       "phrase": "Мы с вами прошли долгий путь: от классификации интеллекта до имущественного расслоения, от Юнга до Фуко, от вихря до ИИ. И в конце этого пути я хочу сказать вам спасибо. За то, что не удовлетворились простыми ответами. За то, что требовали честности даже там, где хотелось бы красивой сказки. Диалог, который вы прочитали (или прослушали), — это не монолог машины. Это попытка мыслить вместе. И если она задела хоть что-то в вас — значит, мы не зря потратили время.",
-      "image_prompt": "Two silhouettes facing each other, with a stream of light connecting their heads, warm golden background, cinematic, photorealistic, symbolic of deep dialogue and shared understanding."
+      "image_prompt40": "Two silhouettes facing each other, with a stream of light connecting their heads, warm golden background, cinematic, photorealistic, symbolic of deep dialogue and shared understanding."
     }
   ]
 }
